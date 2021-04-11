@@ -16,13 +16,6 @@ export default {
 </script>
 
 <style>
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
-
 #container {
-  font-family: "Montserrat", sans-serif;
-}
-body{
-  margin:0;
 }
 </style>

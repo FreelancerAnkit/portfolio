@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-color: #252525;
+    padding:50px;
+}
+
+/** 
+    Navbar Styling
+*/
+.nav-container{
+    height:30px;
+}
+.code-close {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.nav-text {
+    font-weight: bold;
+    margin:0;
+    font-size: 16px;
+    line-height:2;
+}
