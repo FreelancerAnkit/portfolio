@@ -7,6 +7,8 @@ Vue.config.productionTip = false
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+
+import './theme.scss';
 import './main.css';
 
 // Make BootstrapVue available throughout your project

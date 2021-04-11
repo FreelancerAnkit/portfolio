@@ -1,18 +1,21 @@
 <template>
   <div id="container">
-    <Header msg="Welcome to Your Vue.js App"/>
+    <Header msg="Welcome to Your Vue.js App" />
+    <Profile />
   </div>
 </template>
 
 <script>
-import Header from './components/Header'
+import Header from "./components/Header";
+import Profile from "./components/Profile";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Header
-  }
-}
+    Header,
+    Profile,
+  },
+};
 </script>
 
 <style>
