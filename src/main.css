@@ -4,14 +4,39 @@ body {
     font-family: "Montserrat", sans-serif;
     color: white;
     background-color: #252525;
-    padding:50px 100px;
+    padding: 50px 100px;
+}
+.hero-title {
+    width: 36vw;
+}
+.hero-circle {
+    width: 55vw;
+    height: 55vw;
+}
+.hero-circle-small {
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    right: -10vw;
+    bottom: 0;
+}
+.reviews-quote{
+    width:5vw;
+}
+
+/** 
+    Typography
+*/
+.title {
+    line-height: 88px;
+    font-weight: bold;
 }
 
 /** 
     Navbar Styling
 */
-.nav-container{
-    height:30px;
+.nav-container {
+    height: 30px;
 }
 .code-close {
     -webkit-transform: scaleX(-1);
@@ -19,7 +44,7 @@ body {
 }
 .nav-text {
     font-weight: bold;
-    margin:0;
+    margin: 0;
     font-size: 16px;
-    line-height:2;
+    line-height: 2;
 }

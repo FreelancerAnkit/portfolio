@@ -10,3 +10,8 @@ Montserrat
 
 Animation Typing:
 https://css-tricks.com/snippets/css/typewriter-effect/
+
+ScrollDown
+https://codepen.io/TKS31/pen/gOaKaxx
+
+
