@@ -16,12 +16,16 @@ import Skills from "./components/Skills";
 import Reviews from "./components/Reviews";
 import Socials from "./components/Socials";
 import Footer from "./components/Footer";
+import {scrollToView} from "./js/scroll.module";
 
 export default {
   name: "App",
   components: {
     Header,
     Profile, Skills, Reviews, Socials, Footer
+  },
+  mounted() {
+    scrollToView();
   },
 };
 </script>

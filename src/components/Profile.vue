@@ -19,7 +19,7 @@
             <span class="wrap"></span>
           </a>
         </h1>
-        <b-button pill variant="primary" size="lg" class="mt-4">
+        <b-button pill variant="primary" size="lg" class="mt-4 pr-4">
           <b-icon icon="download" class="mx-2"></b-icon>
           RESUME
         </b-button>

@@ -37,6 +37,7 @@ body {
 */
 .nav-container {
     height: 30px;
+    cursor: pointer;
 }
 .code-close {
     -webkit-transform: scaleX(-1);

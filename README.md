@@ -15,3 +15,6 @@ ScrollDown
 https://codepen.io/TKS31/pen/gOaKaxx
 
 
+Connecting Dots:
+https://codepen.io/MarcoGuglielmelli/pen/lLCxy?editors=0010
+https://codepen.io/swotong/pen/PzOvEE?editors=0010

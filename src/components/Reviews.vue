@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-5">
+  <div class="pt-5 container">
     <b-row align-h="center" class="pb-5">
       <b-col class="col-6 pt-5 mt-5 d-md-block d-sm-none d-none">
         <img src="../assets/reviews.svg" class="hero-title" />
@@ -33,6 +33,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.container{
+  margin-top:7%;
+}
 .img-skills {
   width: 15vw;
 }
