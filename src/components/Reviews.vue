@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-5 container">
+  <div id="div-reviews" class="pt-5 container">
     <b-row align-h="center" class="pb-5">
       <b-col class="col-6 pt-5 mt-5 d-md-block d-sm-none d-none">
         <img src="../assets/reviews.svg" class="hero-title" />

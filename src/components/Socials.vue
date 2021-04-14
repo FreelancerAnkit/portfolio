@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="div-connect" class="container">
     <b-row align-h="center">
       <b-col class="col-6 col-sm-12 col-md-6">
         <img src="../assets/connect-svg.svg" class="hero-title" />

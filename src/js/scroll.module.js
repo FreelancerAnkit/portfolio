@@ -4,12 +4,18 @@ export function scrollToView() {
     let connect = document.getElementById("connect");
 
     skills.addEventListener("click", function () {
-        alert("Hello World!");
+        document.getElementById('div-skills').scrollIntoView({
+            behavior: 'smooth'
+        });
     });
     reviews.addEventListener("click", function () {
-        alert("Hello World!");
+        document.getElementById('div-reviews').scrollIntoView({
+            behavior: 'smooth'
+        });
     });
     connect.addEventListener("click", function () {
-        alert("Hello World!");
+        document.getElementById('div-connect').scrollIntoView({
+            behavior: 'smooth'
+        });
     });
 }
