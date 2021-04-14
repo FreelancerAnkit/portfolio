@@ -3,8 +3,8 @@
 body {
     font-family: "Montserrat", sans-serif;
     color: white;
-    background-color: #252525;
     padding: 50px 100px;
+    background:linear-gradient(180deg, rgba(37,37,37, 0.85) 100%, rgba(37,37,37,1) 100%),url("./assets/dots.png");
 }
 .hero-title {
     width: 36vw;
