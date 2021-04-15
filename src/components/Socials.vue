@@ -1,15 +1,15 @@
 <template>
   <div id="div-connect" class="container">
     <b-row align-h="center">
-      <b-col class="col-6 col-sm-12 col-md-6">
+      <b-col class="col-6 col-sm-12 col-md-6" data-animation="zoomIn">
         <img src="../assets/connect-svg.svg" class="hero-title" />
       </b-col>
-      <b-col class="col-7 col-md-6">
+      <b-col class="col-7 col-md-6" data-animation="zoomIn">
         <img src="../assets/hero-header-connect.svg" class="hero-title" />
       </b-col>
     </b-row>
 
-    <b-row align-h="center" class="mt-5 text-center socials">
+    <b-row align-h="center" class="mt-5 text-center socials" data-animation="slideInUp">
       <b-col class="col-md-4 col-sm-12">
         <img src="../assets/social/linkedin.svg" class="social-icons" />
         <h3 class="mt-3 font-weight-bold	">LinkedIn</h3>
