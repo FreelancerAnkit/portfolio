@@ -1,5 +1,5 @@
 <template>
-  <div id="div-skills" class="pt-5 skill-container">
+  <div id="div-skills"  data-animation="slideInUp" class="pt-5 skill-container">
     <b-row align-h="center" class="pb-5">
       <b-col class="col-6 col-sm-12 col-md-6">
         <img src="../assets/hero-header-skills.svg" class="hero-title" />
@@ -9,10 +9,22 @@
       </b-col>
     </b-row>
 
-    <b-row class="skill-container">
+    <b-row class="skill-container"  data-animation="slideInRight">
       <img src="../assets/angular.svg" class="img-skills" />
       <img src="../assets/skills-hero-angular.svg" class="img-line" />
       <h1 class="skill-rating text-secondary">80%</h1>
+    </b-row>
+    
+    <b-row class="skill-container"  data-animation="slideInRight">
+      <img src="../assets/angular.svg" class="img-skills" />
+      <img src="../assets/skills-hero-angular.svg" class="img-line" />
+      <h1 class="skill-rating text-secondary">70%</h1>
+    </b-row>
+
+    <b-row class="skill-container"  data-animation="slideInRight">
+      <img src="../assets/angular.svg" class="img-skills" />
+      <img src="../assets/skills-hero-angular.svg" class="img-line" />
+      <h1 class="skill-rating text-secondary">70%</h1>
     </b-row>
   </div>
 </template>
@@ -28,7 +40,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
+
 .img-skills {
   width: 15vw;
 }

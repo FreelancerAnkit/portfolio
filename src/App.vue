@@ -16,7 +16,7 @@ import Skills from "./components/Skills";
 import Reviews from "./components/Reviews";
 import Socials from "./components/Socials";
 import Footer from "./components/Footer";
-import {scrollToView} from "./js/scroll.module";
+import {scrollToView, scrollVisible} from "./js/scroll.module";
 
 export default {
   name: "App",
@@ -26,11 +26,14 @@ export default {
   },
   mounted() {
     scrollToView();
+    scrollVisible();
   },
 };
 </script>
 
-<style>
+<style lang="scss">
+@import './styles/scroll-animation.scss'; 
+
 #container {
 }
 </style>
