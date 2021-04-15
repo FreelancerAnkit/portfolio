@@ -14,6 +14,9 @@ https://css-tricks.com/snippets/css/typewriter-effect/
 ScrollDown
 https://codepen.io/TKS31/pen/gOaKaxx
 
+ScrollToTop:
+https://codepen.io/cedricbeau/pen/BzwWJd?editors=0010
+
 ScrollVisible Animation: 
 https://codepen.io/ChandanRoy/pen/GRgNYbw?editors=1010
 
