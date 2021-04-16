@@ -19,6 +19,27 @@
         <img src="../assets/reviews/1.png" class="review-content"/>
       </div>
     </b-row>
+
+    <b-row>
+      <div class="review-container" data-animation="fadeIn" >
+        <img src="../assets/reviews-quote.svg" class="reviews-quote" />
+        <img src="../assets/reviews/2.png" class="review-content"/>
+      </div>
+    </b-row>
+
+    <b-row>
+      <div class="review-container" data-animation="fadeIn" >
+        <img src="../assets/reviews-quote.svg" class="reviews-quote" />
+        <img src="../assets/reviews/3.png" class="review-content"/>
+      </div>
+    </b-row>
+    <b-row>
+      <div class="review-container" data-animation="fadeIn" >
+        <img src="../assets/reviews-quote.svg" class="reviews-quote" />
+        <img src="../assets/reviews/4.png" class="review-content"/>
+      </div>
+    </b-row>
+
   </div>
 </template>
 
