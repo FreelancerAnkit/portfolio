@@ -11,15 +11,15 @@
 
     <b-row align-h="center" class="mt-5 text-center socials" data-animation="slideInUp">
       <b-col class="col-md-4 col-sm-12">
-        <img src="../assets/social/linkedin.svg" class="social-icons" />
+        <a href="https://www.linkedin.com/in/ankit-3547b8115/" target="_blank"><img src="../assets/social/linkedin.svg" class="social-icons zoominout" /></a>
         <h3 class="mt-3 font-weight-bold	">LinkedIn</h3>
       </b-col>
       <b-col class="col-md-4 col-sm-12">
-        <img src="../assets/social/angelco.svg" class="social-icons" />
+        <a href="https://angel.co/u/ankit-palli" target="_blank"> <img src="../assets/social/angelco.svg" class="social-icons zoominout" /></a>
         <h3 class="mt-3 font-weight-bold	">Angel.co</h3>
       </b-col>
       <b-col class="col-md-4 col-sm-12">
-        <img src="../assets/social/github.svg" class="social-icons" />
+        <img src="../assets/social/github.svg" class="social-icons zoominout" />
         <h3 class="mt-3 font-weight-bold	">Github</h3>
       </b-col>
     </b-row>

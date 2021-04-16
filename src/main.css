@@ -5,7 +5,7 @@ body {
     color: white;
     padding: 50px 100px;
     overflow-x: hidden;
-    background:linear-gradient(180deg, rgba(37,37,37, 0.85) 100%, rgba(37,37,37,1) 100%),url("./assets/dots.png");
+    background: linear-gradient(180deg, rgba(37, 37, 37, 0.85) 100%, rgba(37, 37, 37, 1) 100%), url("./assets/dots.png");
 }
 .hero-title {
     width: 36vw;
@@ -21,8 +21,8 @@ body {
     right: -10vw;
     bottom: 0;
 }
-.reviews-quote{
-    width:5vw;
+.reviews-quote {
+    width: 5vw;
 }
 
 /** 
@@ -49,4 +49,25 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 2;
+}
+
+/**
+    Common Animations
+*/
+
+@keyframes scale {
+    50% {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+.zoominout:hover {
+    animation: scale 1s linear infinite;
+    -webkit-animation: scale 1s linear infinite;
+    -o-animation: scale 1s linear infinite;
+    -moz--o-animation: scale 1s linear infinite;
+    cursor: pointer;
 }
