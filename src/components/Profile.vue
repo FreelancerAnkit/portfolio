@@ -1,7 +1,7 @@
 <template>
   <div class="mt-4">
     <b-row>
-      <b-col class="text-center d-none d-sm-block d-md-none ">
+      <b-col class="text-center d-none d-sm-block d-md-none">
         <img src="../assets/profile-photo.svg" class="profile-image" />
       </b-col>
       <b-col>
@@ -19,10 +19,12 @@
             <span class="wrap"></span>
           </a>
         </h1>
-        <b-button pill variant="primary" size="lg" class="mt-4 pr-4">
-          <b-icon icon="download" class="mx-2"></b-icon>
-          RESUME
-        </b-button>
+        <a href="ankitpalli_resume.pdf" download>
+          <b-button pill variant="primary" size="lg" class="mt-4 pr-4">
+            <b-icon icon="download" class="mx-2"></b-icon>
+            RESUME
+          </b-button>
+        </a>
       </b-col>
       <b-col class="text-right d-md-block d-sm-none">
         <img src="../assets/profile-photo.svg" class="profile-image" />
@@ -124,7 +126,7 @@ export default {
 .mouse {
   width: 50px;
   height: 90px;
-  border: 3px solid #FFF;
+  border: 3px solid #fff;
   border-radius: 60px;
   position: relative;
 }

@@ -19,7 +19,7 @@
         <h3 class="mt-3 font-weight-bold	">Angel.co</h3>
       </b-col>
       <b-col class="col-md-4 col-sm-12">
-        <img src="../assets/social/github.svg" class="social-icons zoominout" />
+       <a href="https://gitlab.com/ankitpalli/resume" target="_blank">  <img src="../assets/social/github.svg" class="social-icons zoominout" /></a>
         <h3 class="mt-3 font-weight-bold	">Github</h3>
       </b-col>
     </b-row>
