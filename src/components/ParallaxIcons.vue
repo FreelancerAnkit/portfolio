@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container col-6 d-md-block d-sm-none d-none">
     <!-- Top Icons -->
     <img src="../assets/angular.svg" data-speed="1" width="80px" class="layer" style="left:-250px;top:-100px;"/>
     <img src="../assets/node.svg" data-speed="1" width="60px" class="layer" style="left:70%;top:-100px"/>
