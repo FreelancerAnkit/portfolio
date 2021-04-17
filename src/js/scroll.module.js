@@ -63,11 +63,13 @@ export function scrollVisible() {
 
     // Percorre o array de elementos, verifica se o elemento está na tela e inicia animação
     function checkElementsOnScreen(els = _elements) {
-      for (var i = 0, len = els.length; i < len; i++) {
-        // Passa para o proximo laço se o elemento ja estiver animado
-        if (els[i].dataset.animated) continue;
-
-        isElementOnScreen(els[i]) && start(els[i]);
+      if(els){
+        for (var i = 0, len = els.length; i < len; i++) {
+          // Passa para o proximo laço se o elemento ja estiver animado
+          if (els[i].dataset.animated) continue;
+  
+          isElementOnScreen(els[i]) && start(els[i]);
+        }
       }
     }
 

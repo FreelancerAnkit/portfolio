@@ -23,3 +23,6 @@ https://codepen.io/ChandanRoy/pen/GRgNYbw?editors=1010
 Connecting Dots:
 https://codepen.io/MarcoGuglielmelli/pen/lLCxy?editors=0010
 https://codepen.io/swotong/pen/PzOvEE?editors=0010
+
+Website Loading:
+https://codepen.io/mauritiusdsilva/pen/BNZZpG?editors=1010
