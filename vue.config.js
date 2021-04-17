@@ -7,5 +7,6 @@ module.exports = {
                 args[0].title = "Ankit Palli Portfolio";
                 return args;
             })
-    }
+    },
+    publicPath: ''
 }

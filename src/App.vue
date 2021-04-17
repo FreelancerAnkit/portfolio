@@ -1,6 +1,7 @@
 <template>
   <div id="container">
     <div id="goTop"></div>
+    <WebLoading v-if="!isLoaded"/>
     <ParallaxIcons class="position-absolute" />
     <Header msg="Welcome to Your Vue.js App" />
     <Profile />
@@ -19,6 +20,7 @@ import Reviews from "./components/Reviews";
 import Socials from "./components/Socials";
 import Footer from "./components/Footer";
 import ParallaxIcons from "./components/ParallaxIcons";
+import WebLoading from "./components/WebLoading";
 import { scrollToTop, scrollToView, scrollVisible } from "./js/scroll.module";
 
 export default {
@@ -30,12 +32,22 @@ export default {
     Reviews,
     Socials,
     Footer,
-    ParallaxIcons,
+    ParallaxIcons,WebLoading
+  },
+  data: ()=>{
+    return{
+      isLoaded:false,
+    }
   },
   mounted() {
     scrollToView();
     scrollVisible();
     scrollToTop();
+    document.onreadystatechange = ()=>{
+      if(document.readyState == "complete"){
+        this.isLoaded = true;
+      }
+    }
   },
 };
 </script>
