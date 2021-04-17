@@ -19,7 +19,7 @@
             <span class="wrap"></span>
           </a>
         </h1>
-        <a href="ankitpalli_resume.pdf" download>
+        <a href="https://github.com/FreelancerAnkit/portfolio/blob/master/ankitpalli_resume.pdf" download>
           <b-button pill variant="primary" size="lg" class="mt-4 pr-4">
             <b-icon icon="download" class="mx-2"></b-icon>
             RESUME
